@@ -15,3 +15,12 @@ This system automates the generation, archiving, and emailing of professional PD
 
 ## 👨‍💻 About the Author
 Legacy Microsoft Partner (2012) specializing in enterprise-grade automation and solutions architecture.
+
+## 📖 User Instructions
+1. **Prepare the Sheet:** Create two tabs: `📊 Dashboard` and `⚙️ Settings`.
+2. **Configure Settings:**
+   - Place your Google Doc Template ID in cell **B2**.
+   - Place your Destination Folder ID in cell **B3**.
+   - Enter your Business Name in cell **B4**.
+3. **Template Setup:** In your Google Doc, use `{{Column Name}}` tags that match your Dashboard headers exactly.
+4. **Execution:** Use the `🚀 DOCUMENT ENGINE` menu to generate and email your PDF.
